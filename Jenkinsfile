@@ -1,5 +1,5 @@
 pipeline {
-    agent infra
+    agent { label 'infra' }
     stages {
         stage('Checkout') {
             steps {
