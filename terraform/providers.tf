@@ -28,7 +28,7 @@ provider "docker" {
 
 provider "aws" {
   region = "eu-west-1"
-  profile = "dev"
+  #profile = "dev"
   default_tags {
     tags = {
       Creation   = "IaC"
