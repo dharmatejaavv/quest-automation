@@ -14,7 +14,7 @@ terraform {
 
   backend "s3" {
     key                  = "quest.tfstate"
-    profile              = "dev"
+    #profile              = "dev"
     workspace_key_prefix = "quest-Automation"
     region               = "us-east-2"
     bucket               = "quest.backend.terraform.state"
